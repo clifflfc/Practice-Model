@@ -6,7 +6,7 @@ In the world of Logistics, we have to decide how we want to allocate our orders 
 This model aims to provide the ideal partner depending on the given inputs. 
 
 Considered inputs are the weight of the parcel, the region and if Cash-on-delivery is required.
-The model first filters partners based on whether Cash-on-delivery is required, followed by the region.
+The model first filters partners based on whether Cash-on-delivery is required and if they can service the given region.
 
 Thereafter, the model filters partners based on their cost. The partner with the lowest cost is chosen. 
 
